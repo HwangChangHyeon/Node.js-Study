@@ -32,3 +32,4 @@ app.use((err, req, res, next) => {  // err는 매개변수 4개 다써줘야함.
 app.listen(app.get('port'),() => { // app 동작시 포트 설정 및 콜백함수 설정
     console.log('익스프레스 서버 실행');
 });
+ 
